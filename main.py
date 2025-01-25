@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+my_tutorial_app = FastAPI()
 
-@app.get("/")
+@my_tutorial_app.get("/")
 async def root():
     return {"message": "Hello from FastAPI!"}
